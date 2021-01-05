@@ -403,6 +403,7 @@ section.customers {
 .customer-item .link:hover,
 .customer-item .link:focus {
   border: 1px solid var(--accent-color);
+  color: var(--accent-color);
 }
 
 .customer-item:not(:last-child) {
@@ -411,11 +412,6 @@ section.customers {
 
 .customer-icon {
   fill: currentColor;
-}
-
-.customer-icon:hover,
-.customer-icon:focus {
-  fill: var(--accent-color);
 }
 
 /* Portfolio header */
@@ -516,6 +512,8 @@ section.customers {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  color: var(--first-text-color);
 }
 
 .examples p {
@@ -526,7 +524,6 @@ section.customers {
 }
 
 /* Common footer */
-
 .footer-section {
   background-color: var(--dark-background-color);
 }
@@ -541,7 +538,6 @@ section.customers {
 }
 
 .footer .logo {
-  /* display: inline-block; */
   margin-bottom: 10px;
 }
 
@@ -608,33 +604,3 @@ address {
 .join-item:not(:last-child) {
   margin-right: 10px;
 }
-
-/* social.list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 32px;
-  margin-bottom: 30px;
-}
-
-.social-item .link {
-  display: inline-flex;
-  align-items: center;
-  height: 44px;
-  width: 44px;
-  background-color: var(--main-background-color);
-  border-radius: 50%;
-  color: var(--icon-inactive-color);
-}
-
-.social-item .link:hover,
-.social-item .link:focus {
-  background-color: var(--accent-color);
-  color: var(--white-text-color);
-}
-
-.social-icon {
-  fill: currentColor;
-} */
-
-background: rgba(255, 255, 255, 0.1);
